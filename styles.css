@@ -81,7 +81,7 @@
 
 /*Pantalla principal*/
 .main {
-  background-image: url(../images/main.png);
+  background-image: url(./images/main.png);
   height: 600px;
   background-size: cover;
   background-position: center;
