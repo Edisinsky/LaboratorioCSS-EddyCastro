@@ -1,0 +1,263 @@
+/*REGULACIONES GENERALES A LA PAGINA PARA QUE SE ADAPTE A LAS MEDIDAS*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Configuraciones de letra*/
+
+.menu-text {
+  font-family: "Inter";
+  font-weight: normal;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.normal-text {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.miniatura-text {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+#titulo {
+  font-family: "Romanesco", sans-serif;
+  font-size: 96px;
+  font-weight: normal;
+  margin: 150px 150px;
+}
+
+.titulo-2 {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+/*Menu (header)*/
+.menu {
+  display: flex;
+  height: 70px;
+  flex-direction: row;
+  gap: 10px;
+  text-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #a3a656;
+}
+
+#perfil,
+#idioma {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#idioma {
+  margin-left: 20px;
+  margin-right: 15px;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+  margin: 0%;
+  gap: 30px;
+  margin: 0px auto 0px 75px;
+}
+
+/*Pantalla principal*/
+.main {
+  background-image: url(../images/main.png);
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+.main p {
+  margin-bottom: 20px;
+}
+
+/*Seccion para reservar cita*/
+.reservacion-cita {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f6f6;
+  gap: 30px;
+}
+
+.reservacion-cita input {
+  height: 50px;
+  background-color: white;
+  border-radius: 20px;
+  border: 0px;
+  padding: 0 15px;
+}
+
+#input-cita {
+  width: 250px;
+}
+#input-codigo {
+  width: 170px;
+}
+
+input::placeholder {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: #9e9a9a;
+  text-transform: uppercase;
+}
+
+/*Catálogo */
+
+.catalogo {
+  display: flex;
+  flex-direction: row;
+  gap: 134px;
+  margin: 100px 60px;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 315px;
+  height: auto;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #a3a656;
+  border-radius: 15px 15px 0px 0px;
+  padding: 20px;
+  color: white;
+}
+
+.card-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 0px 0px 10px;
+}
+
+.reservar {
+  width: 135px;
+  margin-left: auto;
+}
+
+.button {
+  text-align: center;
+  border-radius: 35px;
+  color: white;
+  border-radius: 35px;
+  background-color: #a3a656;
+  padding: 10px;
+}
+
+/*Tarjetas de planes*/
+
+.planes {
+  display: grid;
+  grid-template-columns: repeat(3, 260px);
+  grid-template-rows: 100px auto;
+  column-gap: 134px;
+  background-color: #f2f6f6;
+  min-height: 770px;
+  justify-content: center;
+  align-items: start;
+}
+.planes h2 {
+  grid-column: 1/-1;
+  padding: 30px;
+  text-align: center;
+}
+
+.plan-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+.plan-card ul li {
+  padding: 5px;
+}
+.ver-condiciones {
+  width: 260px;
+  padding: 15px;
+}
+
+.img-plan {
+  display: flex;
+  width: 255px;
+  height: 255px;
+  border-radius: 50%;
+  border: 11px solid #384001;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Footer*/
+.footer {
+  background-color: #384001;
+  color: #a3a656;
+  height: 97px;
+}
+.footer ul {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+  margin-left: 70px;
+  gap: 30px;
+}
+.footer ul li {
+  margin-right: 30px;
+}
+
+.red-social{
+    padding: 10px;
+}
+
+.red-social img {
+  height: 35px;
+  object-fit: contain;
+}
+
+.youtube {
+  margin-right: 20px;
+}
+/*Acciones sobre botones*/
+
+.button:hover {
+  background-color: #384001;
+  cursor: pointer;
+}
+
+.menu ul li:hover,
+.menu div:hover {
+  color: #ffff00;
+  cursor: pointer;
+}
+
+

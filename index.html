@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+
+    <!--Fuentes de letra-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Romanesco&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laboratorio CSS | Eddy Castro</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="menu menu-text">
+        <ul>
+          <li>Promociones</li>
+          <li>Fotos</li>
+          <li>Servicios</li>
+          <li>Mapa</li>
+          <li>Contacto</li>
+        </ul>
+
+        <div id="perfil" class="miniatura-text">
+          <img src="./images/user.png" alt="perfil-usuario" / >Mi cuenta
+        </div>
+
+        <div id="idioma" class="miniatura-text">
+          ES<img src="./images/flag.png" alt="bandera" />
+          <img src="./images/arrow.png" alt="arrow" />
+        </div>
+      </header>
+
+      <div class="main">
+        <div id="titulo">
+          <p>SPA - Todos</p>
+          <h2 class="titulo-2">
+            Regálate un momento de paz y <br />
+            consiente a tu piel en el mejor lugar
+          </h2>
+        </div>
+      </div>
+
+      <div class="reservacion-cita menu-text">
+        <p>Reserva tu cita:</p>
+        <input id="input-cita" />
+        <p>Código Promocional:</p>
+        <input id="input-codigo" placeholder="Codigo" />
+      </div>
+
+      <div class="catalogo">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="titulo-2">Masaje de Pies</h2>
+          </div>
+          <img src="./images/pies.png" class="img-card" alt="masaje-de-pies" />
+          <p class="descripcion normal-text">
+            Esta es una descripcion de la opción en cuestion....
+          </p>
+          <div class="card-footer">
+            <p class="titulo-2">$65</p>
+            <div class="button reservar normal-text">RESERVAR</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h2 class="titulo-2">Masaje Relajante</h2>
+          </div>
+          <img
+            src="./images/relajante.png"
+            class="img-card"
+            alt="masaje-de-pies"
+          />
+          <p class="descripcion normal-text">
+            Esta es una descripcion de la opción en cuestion....
+          </p>
+          <div class="card-footer">
+            <p class="titulo-2">$60</p>
+            <div class="button reservar normal-text">RESERVAR</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h2 class="titulo-2">Masaje con bambú</h2>
+          </div>
+          <img src="./images/bambu.png" class="img-card" alt="masaje-de-pies" />
+          <p class="descripcion normal-text">
+            Esta es una descripcion de la opción en cuestion....
+          </p>
+          <div class="card-footer">
+            <p class="titulo-2">$58</p>
+            <div class="button reservar normal-text">RESERVAR</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="planes">
+        <h2 class="titulo-2">Hazte socio y prueba nuestros beneficios</h2>
+
+        <div class="plan-card">
+          <div class="img-plan">
+            <img src="./images/gold.png" alt="plan-gold" />
+          </div>
+          <h2 class="titulo-2">GOLD</h2>
+          <div class="button normal-text ver-condiciones">Ver Condiciones</div>
+          <ul class="miniatura-text">
+            <li>Gimnasio</li>
+            <li>Piscina</li>
+            <li>Todos los tratamientos</li>
+          </ul>
+        </div>
+
+        <div class="plan-card">
+          <div class="img-plan">
+            <img src="./images/premium.png" alt="plan-Premium" />
+          </div>
+          <h2 class="titulo-2">Premium</h2>
+          <div class="button normal-text ver-condiciones">Ver Condiciones</div>
+          <ul class="miniatura-text">
+            <li>Gimnasio</li>
+            <li>Todos los tratamientos</li>
+          </ul>
+        </div>
+
+        <div class="plan-card">
+          <div class="img-plan">
+            <img src="./images/plate.png" alt="plan-plate" />
+          </div>
+          <h2 class="titulo-2">Plate</h2>
+          <div class="button normal-text ver-condiciones">Ver Condiciones</div>
+          <ul class="miniatura-text">
+            <li>Tratamientos Faciales</li>
+          </ul>
+        </div>
+      </div>
+
+      <footer class="menu menu-text footer">
+        <ul>
+          <li>Políticas de Cookies</li>
+          <li>Aviso Legal</li>
+          <li>Protección de datos</li>
+          <li>Mapa del sitio</li>
+        </ul>
+        <p>Síguenos en</p>
+        <div class="facebook red-social">
+          <img src="./images/rs_facebook.png" alt="facebook-logo" />
+        </div>
+        <div class="twitter red-social">
+          <img src="./images/rs_twiter.png" alt="twitter-logo" />
+        </div>
+        <div class="youtube red-social">
+          <img src="./images/rs_youtube.png" alt="youtube-logo" />
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
